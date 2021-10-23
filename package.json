@@ -1,5 +1,5 @@
 {
-  "name": "qubed-io",
+  "name": "qubed.io-static",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
@@ -26,5 +26,9 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
+  },
+  "volta": {
+    "node": "14.18.1",
+    "yarn": "1.22.17"
   }
 }
